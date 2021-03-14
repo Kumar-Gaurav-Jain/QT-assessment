@@ -1,0 +1,158 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 8,
+        "name": "order t-shirt \u0026 validate order history",
+        "description": "",
+        "id": "qt-assessment;order-t-shirt-\u0026-validate-order-history",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6979414400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "launch automation practise site",
+            "match": {
+              "location": "stepDefinition.launch_automation_practise_site()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 14767364300,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "select t-shirt tab and place an order",
+            "match": {
+              "location": "stepDefinition.select_t_shirt_tab_and_place_an_order()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2520545800,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "sign-in for successful checkout",
+            "match": {
+              "location": "stepDefinition.sign_in_for_successful_checkout()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8248739200,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "accept the agreement \u0026 place order",
+            "match": {
+              "location": "stepDefinition.accept_the_agreement_place_order()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5074213800,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "validate order status \u0026 the amount",
+            "match": {
+              "location": "stepDefinition.validate_order_status_the_amount()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 7,
+            "name": "@PlaceOrder"
+          }
+        ]
+      },
+      {
+        "line": 16,
+        "name": "Update user profile",
+        "description": "",
+        "id": "qt-assessment;update-user-profile",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6722211000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "launch automation practise site",
+            "match": {
+              "location": "stepDefinition.launch_automation_practise_site()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4404028800,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "sign-in to access the user account",
+            "match": {
+              "location": "stepDefinition.sign_in_to_access_the_user_account()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2566426700,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "update user name",
+            "match": {
+              "location": "stepDefinition.update_user_name()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 183760400,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "validate profile update status",
+            "match": {
+              "location": "stepDefinition.validate_profile_update_status()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 15,
+            "name": "@Updateuserprofile"
+          }
+        ]
+      }
+    ],
+    "name": "QT Assessment",
+    "description": "Placing an Order for T-shirt\r\nSign-in during placing an Order\r\nValidate Order history for placed order",
+    "id": "qt-assessment",
+    "keyword": "Feature",
+    "uri": "Test.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@Assessment"
+      }
+    ]
+  }
+]

@@ -1,0 +1,7 @@
+com\Test\KumarGauravJain\runTest\RunTest.class
+com\Test\KumarGauravJain\utilities\updateProfile.class
+com\Test\KumarGauravJain\utilities\orderHistory.class
+com\Test\KumarGauravJain\stepdefinition\stepDefinition.class
+com\Test\KumarGauravJain\utilities\signIn.class
+com\Test\KumarGauravJain\utilities\home.class
+com\Test\KumarGauravJain\utilities\placeOrder.class

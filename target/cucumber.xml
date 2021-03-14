@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="51.466704">
+<testcase classname="QT Assessment" name="order t-shirt &amp; validate order history" time="37.590277">
+<system-out><![CDATA[Given launch automation practise site.......................................passed
+When select t-shirt tab and place an order..................................passed
+And sign-in for successful checkout.........................................passed
+And accept the agreement & place order......................................passed
+Then validate order status & the amount.....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="QT Assessment" name="Update user profile" time="13.876427">
+<system-out><![CDATA[Given launch automation practise site.......................................passed
+When sign-in to access the user account.....................................passed
+And update user name........................................................passed
+Then validate profile update status.........................................passed
+]]></system-out>
+</testcase>
+</testsuite>
